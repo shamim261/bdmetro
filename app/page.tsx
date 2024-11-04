@@ -2,7 +2,7 @@ import Fare from "./Fare";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Fare />
     </div>
   );

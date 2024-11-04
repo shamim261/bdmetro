@@ -16,7 +16,7 @@ export const stations: string[] = [
   "Shahbag",
   "Dhaka University",
   "Bangladesh Secretariat",
-  "Motijhil",
+  "Motijheel",
 ];
 
 export const fares: Fares = {
@@ -35,7 +35,7 @@ export const fares: Fares = {
     Shahbag: 80,
     "Dhaka University": 90,
     "Bangladesh Secretariat": 90,
-    Motijhil: 100,
+    Motijheel: 100,
   },
   "Uttara Center": {
     "Uttara North": 20,
@@ -52,7 +52,7 @@ export const fares: Fares = {
     Shahbag: 80,
     "Dhaka University": 80,
     "Bangladesh Secretariat": 90,
-    Motijhil: 90,
+    Motijheel: 90,
   },
   "Uttara South": {
     "Uttara North": 20,
@@ -69,7 +69,7 @@ export const fares: Fares = {
     Shahbag: 70,
     "Dhaka University": 70,
     "Bangladesh Secretariat": 80,
-    Motijhil: 90,
+    Motijheel: 90,
   },
   Pallabi: {
     "Uttara North": 30,
@@ -86,7 +86,7 @@ export const fares: Fares = {
     Shahbag: 60,
     "Dhaka University": 60,
     "Bangladesh Secretariat": 70,
-    Motijhil: 80,
+    Motijheel: 80,
   },
   "Mirpur 11": {
     "Uttara North": 30,
@@ -103,7 +103,7 @@ export const fares: Fares = {
     Shahbag: 50,
     "Dhaka University": 60,
     "Bangladesh Secretariat": 70,
-    Motijhil: 70,
+    Motijheel: 70,
   },
   "Mirpur 10": {
     "Uttara North": 40,
@@ -120,7 +120,7 @@ export const fares: Fares = {
     Shahbag: 50,
     "Dhaka University": 50,
     "Bangladesh Secretariat": 60,
-    Motijhil: 60,
+    Motijheel: 60,
   },
   Kazipara: {
     "Uttara North": 40,
@@ -137,7 +137,7 @@ export const fares: Fares = {
     Shahbag: 40,
     "Dhaka University": 50,
     "Bangladesh Secretariat": 50,
-    Motijhil: 60,
+    Motijheel: 60,
   },
   Shewrapara: {
     "Uttara North": 50,
@@ -154,7 +154,7 @@ export const fares: Fares = {
     Shahbag: 40,
     "Dhaka University": 40,
     "Bangladesh Secretariat": 50,
-    Motijhil: 50,
+    Motijheel: 50,
   },
   Agargaon: {
     "Uttara North": 60,
@@ -171,7 +171,7 @@ export const fares: Fares = {
     Shahbag: 30,
     "Dhaka University": 30,
     "Bangladesh Secretariat": 40,
-    Motijhil: 50,
+    Motijheel: 50,
   },
   "Bijoy Sarani": {
     "Uttara North": 60,
@@ -188,7 +188,7 @@ export const fares: Fares = {
     Shahbag: 20,
     "Dhaka University": 20,
     "Bangladesh Secretariat": 40,
-    Motijhil: 50,
+    Motijheel: 50,
   },
   Farmgate: {
     "Uttara North": 70,
@@ -205,7 +205,7 @@ export const fares: Fares = {
     Shahbag: 20,
     "Dhaka University": 20,
     "Bangladesh Secretariat": 30,
-    Motijhil: 30,
+    Motijheel: 30,
   },
   "Karwan Bazar": {
     "Uttara North": 80,
@@ -222,7 +222,7 @@ export const fares: Fares = {
     Shahbag: 20,
     "Dhaka University": 20,
     "Bangladesh Secretariat": 20,
-    Motijhil: 30,
+    Motijheel: 30,
   },
   Shahbag: {
     "Uttara North": 80,
@@ -239,7 +239,7 @@ export const fares: Fares = {
     "Karwan Bazar": 20,
     "Dhaka University": 20,
     "Bangladesh Secretariat": 20,
-    Motijhil: 30,
+    Motijheel: 30,
   },
   "Dhaka University": {
     "Uttara North": 90,
@@ -256,7 +256,7 @@ export const fares: Fares = {
     "Karwan Bazar": 20,
     Shahbag: 20,
     "Bangladesh Secretariat": 20,
-    Motijhil: 20,
+    Motijheel: 20,
   },
   "Bangladesh Secretariat": {
     "Uttara North": 90,
@@ -273,9 +273,9 @@ export const fares: Fares = {
     "Karwan Bazar": 20,
     Shahbag: 20,
     "Dhaka University": 20,
-    Motijhil: 20,
+    Motijheel: 20,
   },
-  Motijhil: {
+  Motijheel: {
     "Uttara North": 100,
     "Uttara Center": 90,
     "Uttara South": 90,
