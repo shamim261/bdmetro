@@ -82,7 +82,7 @@ export default function Fare() {
                 {getFare()} Taka
               </div>
               {origin && destination && (
-                <div className="bg-green-200 my-4 rounded-md py-3">
+                <div className="bg-green-200/40 my-4 rounded-md py-3">
                   <h3 className="font-bold text-xl text-textColorPrimary">
                     If you have MRT/Rapid Pass:
                   </h3>
