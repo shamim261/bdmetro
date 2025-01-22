@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
+import { Hind_Siliguri } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -14,8 +15,15 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const hindSiliguri = Hind_Siliguri({
+  variable: "--font-hind-siliguri",
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["bengali"],
+});
+
 export const metadata: Metadata = {
-  title: "BD Metro - Comprehensive Guide to Dhaka Metro Services and Updates",
+  title:
+    "BD Metro AI - Comprehensive Guide to Dhaka Metro Services and Updates",
   description:
     "Explore the latest information, services, and updates about the Dhaka Metro, including routes, MRT/Rapid Pass, schedules, and travel tips.",
 };
@@ -28,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${hindSiliguri.variable} antialiased`}
       >
         <Navbar />
         {children}

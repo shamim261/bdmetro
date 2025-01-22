@@ -11,6 +11,7 @@ import {
 import { fares, stations } from "@/utils/data";
 import Image from "next/image";
 import { useState } from "react";
+import AiSection from "./AiSection";
 
 export default function Fare() {
   const [origin, setOrigin] = useState("");
@@ -24,7 +25,7 @@ export default function Fare() {
   };
 
   return (
-    <div className="flex h-[50vh] lg:h-[80vh] justify-center items-center">
+    <div className="flex flex-col h-[50vh] lg:h-[80vh] justify-center items-center">
       <Card className="w-full  max-w-2xl mx-auto ">
         <CardHeader>
           <CardTitle className="text-3xl font-bold text-center text-textColorPrimary">
@@ -95,49 +96,9 @@ export default function Fare() {
               )}
             </div>
           </div>
-          {/* <div className="pt-4">
-          <svg viewBox="0 0 200 100" className="w-full h-auto">
-            <line
-              x1="10"
-              y1="50"
-              x2="190"
-              y2="50"
-              stroke="currentColor"
-              strokeWidth="1"
-            />
-            {stations.map((station, index) => {
-              const x = 10 + (index * 180) / (stations.length - 1);
-              return (
-                <g key={station}>
-                  <circle
-                    cx={x}
-                    cy="50"
-                    r="2"
-                    fill={
-                      station === origin || station === destination
-                        ? "currentColor"
-                        : "none"
-                    }
-                    stroke="currentColor"
-                  />
-
-                  <text
-                    x={x}
-                    y="70"
-                    textAnchor="middle"
-                    fontSize="5"
-                    fill="currentColor"
-                    className=""
-                  >
-                    {station}
-                  </text>
-                </g>
-              );
-            })}
-          </svg>
-        </div> */}
         </CardContent>
       </Card>
+      <AiSection />
     </div>
   );
 }
