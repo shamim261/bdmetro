@@ -25,8 +25,8 @@ export default function Fare() {
   };
 
   return (
-    <div className="flex flex-col h-[50vh] lg:h-[80vh] justify-center items-center">
-      <Card className="w-full  max-w-2xl mx-auto ">
+    <div className="flex flex-col min-h-[50vh] min-lg:h-[80vh] justify-center items-center">
+      <Card className="w-full  max-w-2xl mx-auto my-5 ">
         <CardHeader>
           <CardTitle className="text-3xl font-bold text-center text-textColorPrimary">
             Metro Fare Tracker
