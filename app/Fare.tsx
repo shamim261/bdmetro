@@ -11,7 +11,6 @@ import {
 import { fares, stations } from "@/utils/data";
 import Image from "next/image";
 import { useState } from "react";
-import AiSection from "./AiSection";
 
 export default function Fare() {
   const [origin, setOrigin] = useState("");
@@ -98,7 +97,6 @@ export default function Fare() {
           </div>
         </CardContent>
       </Card>
-      <AiSection />
     </div>
   );
 }

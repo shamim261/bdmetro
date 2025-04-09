@@ -4,7 +4,7 @@ import { AIInputWithLoading } from "@/components/ui/ai-input-with-loading";
 import { useRequest } from "@/hooks/useRequest";
 
 const AiSection = () => {
-  const { data, error, loading, request } = useRequest<string>("/api/request");
+  const { data, error, loading, request } = useRequest<string>("/api/response");
 
   return (
     <div className="space-y-8 min-w-[350px] my-8">

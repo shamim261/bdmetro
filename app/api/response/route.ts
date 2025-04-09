@@ -6,9 +6,9 @@ export async function POST(req: NextRequest) {
 
   const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
   const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-pro",
+    model: "gemini-2.5-pro-exp-03-25",
     systemInstruction:
-      "You are a information helper for user. They want to know only about Metro Rail in bangladesh. Don't provide any other information. Response in Bangla if needed.",
+      "You are a information helper for user. They want to know only about Metro Rail in bangladesh. Don't provide any other information. Response in Bangla if needed. response hello for salalm. friday run metro rail partially (start from 3 p.m)",
   });
 
   const result = await model.generateContent(prompt);

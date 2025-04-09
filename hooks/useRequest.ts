@@ -6,6 +6,7 @@ export function useRequest<T>(url: string, options: RequestInit = {}) {
   const [loading, setLoading] = useState(false);
   const request = async (text: string) => {
     try {
+      setLoading(true);
       const response = await fetch(url, {
         method: "POST",
         headers: {
@@ -21,6 +22,8 @@ export function useRequest<T>(url: string, options: RequestInit = {}) {
       } else {
         setError(new Error("An unknown error occurred"));
       }
+    } finally {
+      setLoading(false);
     }
   };
 

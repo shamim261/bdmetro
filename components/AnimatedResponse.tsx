@@ -13,7 +13,7 @@ export default function AnimatedResponse({ message }: { message: string }) {
 
   return (
     <div className="space-y-6 font-hind">
-      <div className="max-w-2xl text-xl">{characterText}</div>
+      <div className="">{characterText}</div>
     </div>
   );
 }
